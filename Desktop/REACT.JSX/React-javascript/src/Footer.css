@@ -1,0 +1,101 @@
+.footer {
+  background-color: #0a1f44;
+  color: #b8c2d6;
+  padding: 80px 35px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Safu tatu: ya kwanza pana, mbili nyembamba */
+.footer_top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.footer_logo {
+  color: #ff6a00;               /* machungwa */
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.9;
+  max-width: 680px;
+}
+
+.footer_section h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.footer_section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_section li {
+  margin-bottom: 18px;
+}
+
+.footer_section a {
+  color: #b8c2d6;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.footer_section a:hover {
+  color: #ff6a00;
+}
+
+/* Mstari wa chini */
+.footer_bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 28px 0;
+  font-size: 16px;
+}
+
+.footer_links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer_links a {
+  color: #b8c2d6;
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  color: #ff6a00;
+}
+
+/* Simu na tablet */
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 20px 0;
+  }
+
+  .footer_top {
+    grid-template-columns: 1fr;   /* safu zinapangana chini kwa chini */
+    gap: 35px;
+  }
+
+  .footer_bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,29 @@
+.stastics-data{
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    margin: 25px;
+    box-shadow: 0px 5px 5px darkgray;
+}
+.s{
+    text-align: center;
+    color: rgb(128, 123, 123);
+    background-color: white;
+    box-shadow: 0px 1px darkgray;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.stastics-data .h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:  rgb(35, 31, 31);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.stastics-data .p{
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+}
